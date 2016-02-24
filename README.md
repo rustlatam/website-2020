@@ -1,4 +1,4 @@
-View site: http://jekyll-themes.gitlab.io/grayscale/
+View site: https://jekyll-themes.gitlab.io/grayscale/
 
 -----
 # Theme: [Grayscale](https://github.com/jeromelachaud/grayscale-theme/)

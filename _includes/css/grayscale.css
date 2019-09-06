@@ -7,9 +7,10 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #fff;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #bbb;
     background-color: {{ site.color.primary-dark }};
+    webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
 html {
@@ -25,7 +26,6 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -65,7 +65,6 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: {{ site.color.primary-dark }};
 }
 
@@ -131,6 +130,10 @@ a:focus {
     }
 }
 
+.logo {
+    max-width: 250px;
+}
+
 .intro {
     display: table;
     width: 100%;
@@ -138,7 +141,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url({{ site.baseurl }}/img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url({{ site.baseurl }}/img/intro-bg-2019.png) no-repeat bottom center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -149,6 +152,12 @@ a:focus {
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
+}
+
+.header-content {
+    /* add a shadow over the header */
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 5px solid red;
 }
 
 .intro .intro-body .brand-heading {
@@ -214,7 +223,7 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
     0 {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -231,7 +240,7 @@ a:focus {
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0 {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -252,11 +261,23 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+.schedule-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url({{ site.baseurl }}/img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url({{ site.baseurl }}/img/schedule-bg.jpg) no-repeat center center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.workshops-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url({{ site.baseurl }}/img/workshops-bg.jpg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -287,7 +308,6 @@ a:focus {
 
 .btn {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -342,6 +362,17 @@ footer p {
     margin: 0;
 }
 
+footer li {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    text-transform: uppercase;
+    background-color: {{ site.color.primary-dark }};
+    font-weight: 700;
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
 ::-moz-selection {
     text-shadow: none;
     background: #fcfcfc;
@@ -362,6 +393,71 @@ img::-moz-selection {
     background: 0 0;
 }
 
-body {
-    webkit-tap-highlight-color: rgba(255,255,255,.2);
+.leaf {
+    padding: 60px;
+    margin: 40px 0px 0px 0px;
+}
+
+.leaf h1 {
+    color: #bbb;
+}
+
+.sponsors {
+    color: #fff;
+}
+
+.sponsors .notes {
+    padding: 40px;
+    font-size: 1em;
+}
+
+.sponsors .packages {
+    background: rgba(0,0,0,0.3);
+    padding: 2em;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sponsors .packages table {
+    font-weight: 300;
+    font-size: 1.4em;
+}
+
+.sponsors .packages table tr.names {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+}
+.sponsors .packages table tr.names .price {
+    color: white;
+    font-weight: 300;
+}
+
+.sponsors .packages table tr td {
+    text-align: center;
+    border-bottom: 0;
+    padding: 10px 30px 10px 30px;
+}
+
+.sponsors .packages table tr td:first-child {
+    text-align: right;
+    padding-right: 1em;
+}
+
+.sponsors .packages table tr td:first-child:last-child {
+    padding-top: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.credits {
+    background: rgba(0,0,0,0.3);
+    padding: 2em;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 1.2em;
 }

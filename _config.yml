@@ -1,30 +1,28 @@
 # Site settings
-title: Grayscale
-email: your-email@domain.com
-url: https://jekyll-themes.gitlab.io
-baseurl: /grayscale
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Rust LATAM | Mexico City, Mexico | May, 15-16th 2020
+email: info@rustlatam.org
+url: https://www.rustlatam.org
+baseurl: ""
+description: "Where Rust meets Latin America"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary-dark: '#000000'
-  links: '#219ab3'
+  primary-dark: '#273b91'
+  links: '#65a2b3'
 
 # Footer settings
-footer: Your Website
+footer: Rust LATAM
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
+  - title: email
+    url: mailto:info@rustlatam.org
   - title: twitter
-    url: https://twitter.com/SBootstrap
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
+    url: https://twitter.com/RustLatamConf
+  - title: gitlab
+    url: https://gitlab.com/rustlatam/website-2020
+  - title: discord
+    url: https://discord.gg/DsQ5JG
 
 # Build settings
 markdown: kramdown

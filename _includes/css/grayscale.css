@@ -157,7 +157,6 @@ a:focus {
 .header-content {
     /* add a shadow over the header */
     background-color: rgba(0, 0, 0, 0.4);
-    border: 5px solid red;
 }
 
 .intro .intro-body .brand-heading {

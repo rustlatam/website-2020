@@ -29,6 +29,10 @@ h6 {
     color: #000;
 }
 
+h1 {
+    font-size: 2.8em;
+}
+
 p {
     margin: 0 0 25px;
     font-size: 18px;

@@ -8,6 +8,8 @@ RustLATAM is a community-driven event but the contribution of sponsors is always
 
 If your company would like to help make the conference happen, here's a list of our sponsorship tiers. If you feel that none of them suits your needs, <a href="mailto:sponsors@rustlatam.org">please reach out</a> and we can work out together a custom solution.
 
+You can also download our [sponsorship brochure](/brochure-latam2020.pdf).
+
 <div class="sponsors">
 
     <section class="packages">
@@ -24,7 +26,6 @@ If your company would like to help make the conference happen, here's a list of 
                 <td><p>Have your identity on our website and during the conference</p></td>
                 <td><p>Includes all the Bronze level benefits</p></td>
                 <td><p>Includes all the Silver level benefits</p></td>
-                <td></td>
             </tr>
 
             <tr class="names">
@@ -38,28 +39,18 @@ If your company would like to help make the conference happen, here's a list of 
                 <td><p>Be recognized in the conference opening</p></td>
                 <td><p>Opportunity to provide swag to be added to the conference swag bag</p></td>
                 <td><p>The first 2 sponsors in this tier will get a 5 minutes talk on stage to present their brand and products</p></td>
-                <td></td>
             </tr>
 
             <tr class="names">
                 <td><p>Be recognized in announcements and on social media</p></td>
                 <td><p>Sponsor booth with banner** and limited space in the exhibit area</p></td>
                 <td><p>Media** about your company running on a TV / monitor during the conference</p></td>
-                <td></td>
             </tr>
 
             <tr class="names">
                 <td><p>1 free attendee tickets</p></td>
                 <td><p>2 free attendee tickets</p></td>
-                <td><p>We will provide whatever else you need if it's possible for us</p></td>
-                <td></td>
-            </tr>
-
-            <tr class="names">
-                <td></td>
-                <td></td>
                 <td><p>4 free attendee tickets</p></td>
-                <td></td>
             </tr>
 
         </table>

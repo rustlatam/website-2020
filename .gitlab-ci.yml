@@ -1,11 +1,19 @@
 image: ruby:2.4
 
+variables:
+  JEKYLL_ENV: production
+  LC_ALL: C.UTF-8
+
+before_script:
+  - bundle install
+
 pages:
   stage: deploy
   script:
   - gem install bundler
-  - bundle install
-  - jekyll build -d public/
+  - bundle exec jekyll build -d public
   artifacts:
     paths:
-    - public
+    - _site
+  only:
+    - master

@@ -4,8 +4,8 @@ variables:
   JEKYLL_ENV: production
   LC_ALL: C.UTF-8
 
-before_script:
-  - bundle install
+#before_script:
+#  - bundle install
 
 pages:
   stage: deploy

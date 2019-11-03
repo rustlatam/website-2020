@@ -11,8 +11,7 @@ pages:
   stage: deploy
   script:
   #- gem install jekyll 3.8.6
-  #- jekyll build -d _site
-  - jekyll serve
+  - jekyll build -d _site
   artifacts:
     paths:
     - _site

@@ -1,4 +1,4 @@
-image: ruby:2.4
+image: jekyll/jekyll
 
 variables:
   JEKYLL_ENV: production
@@ -10,9 +10,9 @@ variables:
 pages:
   stage: deploy
   script:
-  - gem install bundler
-  - gem install jekyll
-  - bundle exec jekyll build -d _site
+  #- gem install jekyll 3.8.6
+  #- jekyll build -d _site
+  - jekyll serve
   artifacts:
     paths:
     - _site

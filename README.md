@@ -9,3 +9,11 @@ Website of the Rust LATAM 2020
 
 - Check out the repo
 - docker run --rm --volume=$(pwd):/srv/jekyll -p 35729:35729 -p 4000:4000 -it jekyll/jekyll jekyll serve
+
+## Run locally without docker
+
+As per the [jekyll docs](https://jekyllrb.com/)
+
+- `gem install bundler`
+- `bundle install --path vendor/bundle`
+- `bundle exec jekyll serve`

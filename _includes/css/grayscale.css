@@ -84,14 +84,15 @@ a:focus {
     outline: 0;
 }
 
-.navbar-custom .navbar-brand .navbar-toggle {
+.navbar-custom .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
     color: #fff;
+    cursor: pointer;
 }
 
-.navbar-custom .navbar-brand .navbar-toggle:focus,
-.navbar-custom .navbar-brand .navbar-toggle:active {
+.navbar-custom .navbar-toggle:focus,
+.navbar-custom .navbar-toggle:active {
     outline: 0;
 }
 

@@ -73,20 +73,26 @@ a:focus {
 
 .navbar-custom .navbar-brand {
     font-weight: 700;
+    padding: 0;
+}
+
+.navbar-custom .navbar-brand img {
+    height: 100%;
 }
 
 .navbar-custom .navbar-brand:focus {
     outline: 0;
 }
 
-.navbar-custom .navbar-brand .navbar-toggle {
+.navbar-custom .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
     color: #fff;
+    cursor: pointer;
 }
 
-.navbar-custom .navbar-brand .navbar-toggle:focus,
-.navbar-custom .navbar-brand .navbar-toggle:active {
+.navbar-custom .navbar-toggle:focus,
+.navbar-custom .navbar-toggle:active {
     outline: 0;
 }
 

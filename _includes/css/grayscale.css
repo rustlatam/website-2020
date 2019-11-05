@@ -279,6 +279,16 @@ a:focus {
     width: 70%;
 }
 
+.map-links {
+    --links-height: 50px;
+
+    height: var(--links-height);
+}
+
+.map-links a {
+    line-height: var(--links-height);
+}
+
 @media(max-width: 766px) {
     .sub-content-section {
         width: 100%;
@@ -286,6 +296,7 @@ a:focus {
 
     .map-frame {
         max-width: 100%;
+        pointer-events: none;
     }
 }
 

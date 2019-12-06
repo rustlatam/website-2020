@@ -168,6 +168,7 @@ a:focus {
 .header-content {
     /* add a shadow over the header */
     background-color: rgba(0, 0, 0, 0.4);
+    padding: 25px;
 }
 
 .intro .intro-body .brand-heading {
@@ -322,7 +323,8 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 120px;
+        padding-top: 100px;
+        padding-bottom: 50px;
     }
 
     .download-section {
@@ -469,3 +471,23 @@ img::-moz-selection {
     padding: 1.5em;
     font-size: 1.2em;
 }
+
+/* Glyph, by Harry Roberts */
+hr.section-separator {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+    width: 75%;
+}
+hr.section-separator:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}}

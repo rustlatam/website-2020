@@ -15,8 +15,6 @@ footer: Rust LATAM
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: email
-    url: mailto:info@rustlatam.org
   - title: twitter
     url: https://twitter.com/RustLatamConf
   - title: gitlab

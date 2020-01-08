@@ -30,7 +30,7 @@ You can also download our [sponsorship brochure](/brochure-latam2020.pdf).
 
             <tr class="names">
                 <td><p>Be mentioned in the pre-event emails</p></td>
-                <td><p>The first 4 sponsors in this tier will have their visual identity included in talk videos during streaming and in the conference t-shirts and lanyards</p></td>
+                <td><p>The first 4 sponsors in this tier will have their visual identity included in talk videos during streaming and in the conference t-shirts and badges</p></td>
                 <td><p>Have a bigger space sponsor booth in the exhibit area</p></td>
                 <td><p><a href="mailto:sponsors@rustlatam.org">Get in touch with us!</a></p></td>
             </tr>

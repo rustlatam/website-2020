@@ -8,7 +8,7 @@ description: "Where Rust meets Latin America"
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#273b91'
-  links: '#65a2b3'
+  links: '#079bc7'
 
 # Footer settings
 footer: Rust LATAM

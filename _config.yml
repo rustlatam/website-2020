@@ -1,5 +1,5 @@
 # Site settings
-title: Rust LATAM | May, 22nd-23rd 2020 | Mexico City
+title: Rust Latam | May, 22nd-23rd 2020 | Mexico City
 email: info@rustlatam.org
 url: https://www.rustlatam.org
 baseurl: ""
@@ -11,7 +11,7 @@ color:
   links: '#079bc7'
 
 # Footer settings
-footer: Rust LATAM
+footer: Rust Latam
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

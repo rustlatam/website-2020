@@ -4,7 +4,7 @@ permalink: /sponsors/
 title: Sponsor packages
 ---
 
-RustLATAM is a community-driven event but the contribution of sponsors is always fundamental.
+Rust Latam is a community-driven event but the contribution of sponsors is always fundamental.
 
 If your company would like to help make the conference happen, here's a list of our sponsorship tiers. If you feel that none of them suits your needs, <a href="mailto:sponsors@rustlatam.org">please reach out</a> and we can work out together a custom solution.
 

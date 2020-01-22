@@ -1,4 +1,4 @@
-Website of the Rust LATAM 2020
+Website of the Rust Latam 2020
 
 -----
 # Theme forked from: [Grayscale](https://github.com/jeromelachaud/grayscale-theme/)

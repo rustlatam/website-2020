@@ -482,6 +482,7 @@ hr.section-separator {
     text-align: center;
     width: 75%;
 }
+
 hr.section-separator:after {
     content: "§";
     display: inline-block;
@@ -490,4 +491,26 @@ hr.section-separator:after {
     font-size: 1.5em;
     padding: 0 0.25em;
     background: white;
-}}
+}
+
+/* Sponsors */
+
+.brand_item {
+    padding: 0 1.5rem;
+}
+
+.brand_item img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.sponsor-head {
+    display: block;
+    font-size: 2.5em;
+    margin-top: 0.67em;
+    margin-bottom: 1.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}

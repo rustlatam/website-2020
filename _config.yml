@@ -20,7 +20,7 @@ social:
   - title: gitlab
     url: https://gitlab.com/rustlatam/website-2020
   - title: discord
-    url: https://discord.gg/DsQ5JG
+    url: https://discord.gg/rust-latam
 
 # Build settings
 markdown: kramdown

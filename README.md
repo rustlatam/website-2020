@@ -10,6 +10,10 @@ Website of the Rust Latam 2020
 - Check out the repo
 - docker run --rm --volume=$(pwd):/srv/jekyll -p 35729:35729 -p 4000:4000 -it jekyll/jekyll jekyll serve
 
+or with Docker Compose
+
+- docker-compose up
+
 ## Run locally without docker
 
 As per the [jekyll docs](https://jekyllrb.com/)

@@ -9,6 +9,8 @@ body {
     height: 100%;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+    color: white;
+    background-color: #273b91;
 }
 
 html {
@@ -26,7 +28,6 @@ h6 {
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 1px;
-    color: #000;
 }
 
 h1 {
@@ -118,6 +119,22 @@ a:focus {
     background-color: rgba(255,255,255,.3);
 }
 
+.intro .intro-body .brand-heading {
+    color: white;
+}
+
+.divider {
+    border-top:4px solid white;
+    max-height: 4px;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding-bottom: 30px;
+}
+.container {
+    background-color: #273b91;
+    width:90%;
+}
+
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
@@ -166,41 +183,121 @@ a:focus {
 }
 
 .header-content {
-    /* add a shadow over the header */
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 25px;
+    padding: 10% 0% 0% 0%;
 }
 
-.intro .intro-body .brand-heading {
-    font-size: 40px;
-    color: white;
+/* desktop*/
+@media(min-width:1025px) {
+  nav .container {
+    width:70%;
+  }
+
+  .intro {
+    height: 100%;
+    padding: 0;
+  }
+
+  .intro .intro-body .brand-heading {
+    font-size: 6em;
+    text-shadow: 8px 6px #273b91;
+  }
+
+  .intro .intro-body .intro-text {
+    font-size: 3em;
+    text-shadow: 4px 4px #273b91;
+  }
+
+  .intro .intro-body .intro-text_date {
+    font-size: 2.5em;
+    text-shadow: 2px 1px 10px #273b91;
+  }
+
+  .content-section {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
 }
 
-.intro .intro-body .intro-text {
-    font-size: 18px;
+/* tablet*/
+@media(max-width:1024px) {
+  nav .container{
+    width:90%;
+  }
+
+  .intro {
+    height: 100%;
+    padding: 0;
+  }
+
+  .intro .intro-body .brand-heading {
+    font-size: 4.5em;
+    text-shadow: 4px 3px #273b91;
+  }
+
+  .intro .intro-body .intro-text {
+    font-size: 2.2em;
+    text-shadow: 4px 2px #273b91;
+  }
+
+  .intro .intro-body .intro-text_date {
+    font-size: 2em;
+    text-shadow: 2px 1px 5px #273b91;
+  }
+
+  .content-section {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .navbar-custom .navbar-brand {
+    padding: 5px;
+  }
 }
 
-@media(min-width:767px) {
-    .intro {
-        height: 100%;
-        padding: 0;
-    }
+/* phone */
+@media(max-width:640px) {
+  nav .container{
+    width:90%;
+  }
 
-    .intro .intro-body .brand-heading {
-        font-size: 100px;
-    }
+  .intro {
+    height: 100%;
+    padding: 0;
+  }
 
-    .intro .intro-body .intro-text {
-        font-size: 25px;
-    }
+  .intro .intro-body .brand-heading {
+    font-size: 3em;
+    text-shadow: 4px 3px #273b91;
+  }
+
+  .intro .intro-body .intro-text {
+    font-size: 2em;
+    text-shadow: 4px 2px #273b91;
+  }
+
+  .intro .intro-body .intro-text_date {
+    font-size: 1.5em;
+    text-shadow: 2px 1px 5px #273b91;
+  }
+
+  .content-section {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .navbar-custom .navbar-brand {
+    padding: 5px;
+  }
 }
 
 .btn-circle {
     width: 70px;
     height: 70px;
-    margin-top: 15px;
-    padding: 7px 16px;
-    border: 2px solid #fff;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    padding: 5px 14px;
+    border: 4px solid #fff;
     border-radius: 35px;
     font-size: 40px;
     color: #fff;
@@ -297,36 +394,11 @@ a:focus {
     }
 }
 
-.schedule-section {
-    width: 100%;
-    padding: 50px 0;
-    color: black;
-    background: url({{ site.baseurl }}/img/schedule-bg.jpg) no-repeat center center scroll;
-    background-color: {{ site.color.primary-dark }};
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.workshops-section {
-    width: 100%;
-    padding: 50px 0;
-    color: black;
-    background: url({{ site.baseurl }}/img/workshops-bg.jpg) no-repeat center center scroll;
-    background-color: {{ site.color.primary-dark }};
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
+/* #schedule, #schedule .container { */
+/*   background-color: #1BA591; */
+/* } */
 
 @media(min-width:767px) {
-    .content-section {
-        padding-top: 100px;
-        padding-bottom: 50px;
-    }
-
     .download-section {
         padding: 100px 0;
     }
@@ -423,6 +495,8 @@ img::-moz-selection {
     color: #bbb;
 }
 
+/* Sponsors page */
+
 .sponsors {
     color: #fff;
 }
@@ -432,7 +506,7 @@ img::-moz-selection {
 }
 
 .sponsors .packages {
-    background: #273b91;
+    background-color: #273b91;
 }
 
 .sponsors .packages table th {
@@ -451,7 +525,6 @@ img::-moz-selection {
     width: 25%;
     border-right: 1px solid #c1c1c1;
     border-left: 1px solid #c1c1c1;
-    /* border: 1px solid red; */
 }
 
 .sponsors .packages th {
@@ -474,26 +547,17 @@ img::-moz-selection {
 
 /* Glyph, by Harry Roberts */
 hr.section-separator {
-    overflow: visible; /* For IE */
-    padding: 0;
-    border: none;
-    border-top: medium double #333;
-    color: #333;
-    text-align: center;
-    width: 75%;
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  background: url(img/separator.jpg) no-repeat center center scroll;
+  color: #333;
+  text-align: center;
+  width: 75%;
+  height:30px;
 }
 
-hr.section-separator:after {
-    content: "§";
-    display: inline-block;
-    position: relative;
-    top: -0.7em;
-    font-size: 1.5em;
-    padding: 0 0.25em;
-    background: white;
-}
-
-/* Sponsors */
+/* Sponsors items in homepage */
 
 .brand_item {
     padding: 0 1.5rem;
@@ -515,6 +579,19 @@ hr.section-separator:after {
     font-weight: bold;
 }
 
+.gold {
+  color: #ffd700;
+}
+
+.silver {
+  color: #c0c0c0;
+}
+
+.bronze {
+  color: #ff8c00;
+}
+
+
 /* Bio collapsible */
 
 /* Shameless copy&paste from */
@@ -523,26 +600,24 @@ hr.section-separator:after {
 
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
-    background-color: #eee;
     color: #444;
     cursor: pointer;
-    padding: 18px;
+    padding: 10px;
     width: 100%;
     border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
 }
 
 .abstract {
-    background-color: #f1f1f1;
-    padding: 5px;
-    font-size: 1.3em;
+  background-color: #1c328f;
+  padding: 5px;
+  font-size: 1.3em;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
-    background-color: #ccc;
+  background-color: #ccc;
 }
 
 /* Style the collapsible content. Note: hidden by default */
@@ -550,13 +625,10 @@ hr.section-separator:after {
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    background-color: #f1f1f1;
-    font-size: 1.0em;
 }
 
 .collapsible:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
     color: white;
     float: right;
     margin-left: 5px;

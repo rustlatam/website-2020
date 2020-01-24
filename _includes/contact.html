@@ -7,13 +7,20 @@
 
       <ul class="list-inline banner-social-buttons">
         <li>
-          <a href="mailto:info@rustlatam.org" class="btn btn-default btn-lg"><i class="fas fa-envelope fa-fw"></i> <span class="network-name">EMAIL</span></a>
+          <a href="mailto:team@rustlatam.org" class="btn btn-default btn-lg"><i class="fas fa-envelope fa-fw"></i> <span class="network-name">EMAIL</span></a>
         </li>
-        {% for network in site.social %}
+
         <li>
-          <a href="{{ network.url }}" class="btn btn-default btn-lg"><i class="fab fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
+          <a href="https://twitter.com/RustLatamConf" class="btn btn-default btn-lg"><i class="fab fa-twitter fa-fw"></i> <span class="network-name">twitter</span></a>
         </li>
-        {% endfor %}
+
+        <li>
+          <a href="https://gitlab.com/rustlatam/website-2020" class="btn btn-default btn-lg"><i class="fab fa-gitlab fa-fw"></i> <span class="network-name">gitlab</span></a>
+        </li>
+
+        <li>
+          <a href="https://discord.gg/rust-latam" class="btn btn-default btn-lg"><i class="fab fa-discord fa-fw"></i> <span class="network-name">discord</span></a>
+        </li>
       </ul>
     </div>
   </div>

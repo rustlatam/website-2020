@@ -16,9 +16,9 @@ You can also download our [sponsorship brochure](/brochure-latam2020.pdf).
         <table>
 
             <tr class="names">
-                <th style="color: darkorange;">Bronze<br /><span class="price">USD 1,500</span></th>
-                <th style="color: silver;">Silver<br /><span class="price">USD 3,000</span></th>
-                <th style="color: gold;">Gold<br /><span class="price">USD 5,000</span></th>
+                <th class="bronze">Bronze<br /><span class="price">USD 1,500</span></th>
+                <th class="silver">Silver<br /><span class="price">USD 3,000</span></th>
+                <th class="gold">Gold<br /><span class="price">USD 5,000</span></th>
                 <th>Custom</th>
             </tr>
 
@@ -26,6 +26,7 @@ You can also download our [sponsorship brochure](/brochure-latam2020.pdf).
                 <td><p>Have your identity on our website and during the conference</p></td>
                 <td><p>Includes all the Bronze level benefits</p></td>
                 <td><p>Includes all the Silver level benefits</p></td>
+                <td></td>
             </tr>
 
             <tr class="names">
@@ -39,18 +40,21 @@ You can also download our [sponsorship brochure](/brochure-latam2020.pdf).
                 <td><p>Be recognized in the conference opening</p></td>
                 <td><p>Opportunity to provide swag to be added to the conference swag bag</p></td>
                 <td><p>The first 2 sponsors in this tier will get a 5 minutes talk on stage to present their brand and products</p></td>
+                <td></td>
             </tr>
 
             <tr class="names">
                 <td><p>Be recognized in announcements and on social media</p></td>
                 <td><p>Sponsor booth with banner** and limited space in the exhibit area</p></td>
                 <td><p>Media** about your company running on a TV / monitor during the conference</p></td>
+                <td></td>
             </tr>
 
             <tr class="names">
                 <td><p>1 free attendee tickets</p></td>
                 <td><p>2 free attendee tickets</p></td>
                 <td><p>4 free attendee tickets</p></td>
+                <td></td>
             </tr>
 
         </table>

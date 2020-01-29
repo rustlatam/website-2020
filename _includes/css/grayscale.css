@@ -186,7 +186,7 @@ a:focus {
     padding: 10% 0% 0% 0%;
 }
 
-/* desktop*/
+/* desktop */
 @media(min-width:1025px) {
   nav .container {
     width:70%;
@@ -219,7 +219,7 @@ a:focus {
 
 }
 
-/* tablet*/
+/* tablet */
 @media(max-width:1024px) {
   nav .container{
     width:90%;
@@ -289,6 +289,17 @@ a:focus {
   .navbar-custom .navbar-brand {
     padding: 5px;
   }
+
+  /* Push down the following item */
+  .brand_item {
+    margin-bottom: 20px;
+  }
+
+  /* Fix sponsor images position on mobile view */
+  .brand_item img {
+    width: 95%;
+  }
+
 }
 
 .btn-circle {
@@ -566,7 +577,7 @@ hr.section-separator {
 .brand_item img {
     display: block;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .sponsor-head {
@@ -612,7 +623,7 @@ hr.section-separator {
 .abstract {
   background-color: #1c328f;
   padding: 5px;
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */

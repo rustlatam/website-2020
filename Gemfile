@@ -1,4 +1,4 @@
-source "https://rubygems.org" do
-       gem "jekyll"
-       gem "bundler"
-end
+source 'https://rubygems.org'
+
+gem "jekyll"
+gem "bundler"
